@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "ADHD Helper",
+  "version": "1.0",
+  "description": "Limits Chrome tabs to improve your productivity and to help you focus on one thing at a time.",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon48.png"
+  }
+}
